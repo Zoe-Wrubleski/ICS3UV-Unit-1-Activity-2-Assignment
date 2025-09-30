@@ -10,7 +10,12 @@ package main
 import "fmt"
 
 func main() {
-	//
-	fmt.Println("V ≈ " + "cm³")
+	//text asking the question
+	fmt.Println("What is the volume of a sphere with a radius of 4 cm?")
+
+	//calculation
+	fmt.Println("V ≈ " + fmt.Sprint(4 / 3 * 3.141592653589 * 4 * 4 * 4)+ "cm³")
+
+	fmt.Println("\nDone.")
 
 }
