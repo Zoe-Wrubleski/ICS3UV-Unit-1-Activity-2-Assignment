@@ -16,4 +16,6 @@ func main() {
 	//
 	fmt.Println("A ≈ " + fmt.Sprint(3.141592653589 * 14 * 14) + " cm²")
 
+	fmt.Println("\nDone.")
+	
 }
